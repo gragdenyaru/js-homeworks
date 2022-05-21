@@ -25,7 +25,6 @@ let products = parseProducts(json);
 
 // Запишите в переменную length значение свойства products.length
 let length = products.length;
-console.log(length);
 
 // Напишите цикл, в котором перебираете все products от 0 до (length - 1)
 for (let i = 0; i < length; i += 1) {
